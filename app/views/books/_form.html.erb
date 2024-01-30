@@ -28,7 +28,7 @@
 
   <div>
     <%= form.label :published_date, style: "display: block" %>
-    <%= form.text_field :published_date %>
+    <%= form.date_select :published_date, prompt: { day: 'Select day', month: 'Select month', year: 'Select year' } %>
   </div>
 
   <div>
